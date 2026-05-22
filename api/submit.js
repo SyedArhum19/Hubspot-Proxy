@@ -89,11 +89,11 @@ export default async function handler(req, res) {
                     { name: "lastname", value: lastname },
                     { name: "company", value: company }, // Maps to Company Name
                     { name: "jobtitle", value: jobtitle }, // Maps to Job Title
-                    { name: "primary_employment_type", value: employment_type },
+                    { name: "hs_role", value: employment_type },
                     { name: "primary_building_segment", value: primary_building_segment },
                     { name: "address", value: address },
                     { name: "city", value: city },
-                    { name: "hs_state_code", value: state },
+                    { name: "state", value: state },
                     { name: "zip", value: zip },
                     { name: "phone", value: phone },
                     { name: "wishlist_products", value: wishlist_products }
